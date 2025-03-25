@@ -1,0 +1,57 @@
+.student-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+.student-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.placeholder-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #555;
+}
+
+.card-item strong {
+    color: #333;
+}
